@@ -226,7 +226,7 @@ void XMLParser::menu()
             <<"- A/B returns the data of all the B children of A\n"
             <<"- A/B[0] returns the first of the A/B\n"
             <<"- A[@attribute] returns returns the attribute(s) of all A elements\n"
-            <<"- A[B = data] returns all B children of A whose data matches data\n"
+            <<"- A[B = data]/C returns the C-data of all B children of A whose data matches data\n"
             <<" Type 'exit' to quit\n";
     while(true){
         std::cout<<"Enter your query: ";
